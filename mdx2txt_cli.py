@@ -211,8 +211,8 @@ def find_md2_md4_files(folder):
 # Main function that handles command-line arguments and initiates the conversion
 def main():
     parser = argparse.ArgumentParser(description="MDX2TXT Converter - Convert MD2/MD4 files to TXT format",
-                                     usage="mdx2txt.py [command args]",
-                                     prog="MDX2ASCII")
+                                     usage="mdx2txt_cli.py [command args]",
+                                     prog="MDX2ASCII_version 1")
     parser.add_argument("input_path", type=str, help="Input folder or file to convert")
     parser.add_argument("output_directory", type=str, help="Output directory for converted files")
     args = parser.parse_args()
